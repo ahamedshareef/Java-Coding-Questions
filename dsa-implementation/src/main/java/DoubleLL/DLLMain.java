@@ -9,10 +9,30 @@ public class DLLMain {
 		myDLL.printList();
 		myDLL.addFirst(1);
 		myDLL.printList();
-		myDLL.getHead();
-		myDLL.getTail();
-		System.out.println(myDLL.removeFirst().value);
-		myDLL.getHead();
+		
+//		System.out.println(myDLL.removeFirst().value);
+//		myDLL.getHead();
+		
+		System.out.println(myDLL.getNode(2).value);
+		
+		myDLL.setValue(1,6);
+		myDLL.printList();
+		myDLL.insert(1, 9);
+		myDLL.printList();
+		//myDLL.remove2(2);
+		//myDLL.printList();
+		
+		myDLL.reverse();
+		myDLL.printList();
+		myDLL.swapPairs();
+		myDLL.printList();
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
