@@ -6,7 +6,7 @@ import java.util.Map;
 
 // https://youtu.be/SKI8IirQZgo
 
-public class removeDuplicateFromArray {
+public class removeDuplicateFromArray26 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

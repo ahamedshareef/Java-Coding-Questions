@@ -1,5 +1,6 @@
 package hashtables;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -41,6 +42,16 @@ public class Main {
 	     //s.indexOf (s.charAt9(i),s.indexOf(s.charAt()i)+1) ==-1
 	     String[] strs = {"eat","tea","tan","ate","nat","bat"};
 	     System.out.println(myHashTable.groupAnagrams(strs));
+	     
+	     int[] nums1 = {1, 2, 3, 4, 5};
+	     int target1 = 9;
+	     int[] result1 = myHashTable.subarraySum(nums1, target1);
+	     System.out.println("[" + result1[0] + ", " + result1[1] + "]");
+	     
+	     
+	   
+	     
+	     
 	     
 
 	}

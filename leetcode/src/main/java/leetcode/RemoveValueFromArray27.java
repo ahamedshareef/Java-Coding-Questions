@@ -2,7 +2,7 @@ package leetcode;
 
 
 
-public class RemoveValueFromArray {
+public class RemoveValueFromArray27 {
 
 	public static void main(String[] args) {
 		

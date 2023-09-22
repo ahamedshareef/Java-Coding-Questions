@@ -37,6 +37,7 @@ public static int majorityElement(int[] nums) {
 
 public int majorityElement2(int[] nums) {
     Arrays.sort(nums);
+    
  return nums[nums.length/2];
 }
 

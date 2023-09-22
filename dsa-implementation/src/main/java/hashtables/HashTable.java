@@ -221,17 +221,19 @@ public class HashTable {
 	
 	
 	public int[] subarraySum(int[] nums, int target) {
-		int[] result = new int[2];
-		
-		for(int i=0;i<nums.length-1;) {
-			int j=i+1;
-			int sum = nums[i];
-			if(sum<target) {
-				sum+=nums[j];
+		//int[] result = new int[2];
+		Map<Integer,Integer> sumIndex = new HashMap<>();
+		int currentSum =0;
+		sumIndex.put(0, -1);
+		for(int i=0;i<nums.length;i++) {
+			currentSum+= nums[i];
+			if(sumIndex.containsKey(currentSum - target)) {
+				return new int[] {sumIndex.get(currentSum-target),i};
 			}
+			sumIndex.put(currentSum, i);
 		}
 		
-		return result;
+		return new int[]{};
 		
 	}
 	
