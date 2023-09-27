@@ -6,7 +6,7 @@ import java.util.Map;
 public class IsoMorphicStrings {
 
 	public static void main(String[] args) {
-		String s = "egg", r = "add";
+		String s = "paper", r = "title";
 		System.out.println(findIsom(s,r));
 		// e->a g->d g->d 
 		
