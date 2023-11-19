@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class MergeArrays {
+public class MergeArrays88 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
