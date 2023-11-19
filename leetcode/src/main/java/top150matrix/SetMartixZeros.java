@@ -1,4 +1,4 @@
-package arrays;
+package top150matrix;
 
 public class SetMartixZeros {
 
