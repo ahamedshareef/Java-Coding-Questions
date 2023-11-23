@@ -14,10 +14,7 @@ public class LinkedList {
 		}
 		
 	}
-	
-	
-	
-	
+
 	 public LinkedList(int value) {
 		Node newNode = new Node(value);
 		head = newNode;
