@@ -33,6 +33,20 @@ public class NonRepeatingChar {
         return ans;
     }
     
+    public static Character nonRepeating2(String s) { //O(n2)
+    	char c[] = s.toCharArray();
+    	char ans = 0;
+    	for(int i=0;i<c.length;i++) {
+    		char ch = c[i];
+    		
+    		if(s.indexOf(ch)==i && s.indexOf(ch,i+1) == -1) {
+    			{ans= ch; break;}
+    		}
+    	}
+    	return ans;
+    }
+    
+    
     
 
 }
